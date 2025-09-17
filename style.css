@@ -20,3 +20,35 @@ header{
 .carousel-control-next{
     color: black;
 }
+
+.carousel-control-next-icon{
+    background-image: url(img/flechas2.png) !important;
+}
+.carousel-control-prev-icon{
+    background-image: url(img/flechas.png) !important;
+}
+.card{
+    margin-left:25%;
+}
+.container px-4 text-center{
+    margin-bottom:10%;
+}
+
+#carouselExampleIndicators{
+    margin-top:3%;
+}
+.fotostreched{
+    width:40% !important;  
+      margin-left:20%;
+
+}
+#texto{
+      margin-top:5%;
+      padding:2%;
+     
+}  
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #73ed4838;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #2ee746;
+}
