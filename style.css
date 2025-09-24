@@ -6,16 +6,31 @@
 }
 header{
     padding:1%;
-    background-color: rgb(116, 116, 116);
+    background-color: #aadb7a;
+}
+.dropdown-item:active {
+    background-color: #aadb7a !important;
 }
 
+    nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: transparent !important;
+}
 .container{
     margin-top:3%;
+}
+.display-6{
+    font-size: xx-largez !important;
 }
 .accordion{
     width:80%;
     margin-left:10%;
     margin-top:2.5%;
+}
+div#texto {
+    background-color: rgb(255, 220, 243) !important;
+}
+img.fotostreched {
+    border-radius: 10px;
 }
 .carousel-control-next{
     color: black;
@@ -29,6 +44,11 @@ header{
 }
 .card{
     margin-left:25%;
+    BORDER: 3px #317219 solid !important;
+
+}
+img.card-img-top {
+    border-bottom: 2px #34ab0a solid;
 }
 .container px-4 text-center{
     margin-bottom:10%;
@@ -49,6 +69,52 @@ header{
 }  
 .accordion-button:not(.collapsed) {
     color: var(--bs-accordion-active-color);
-    background-color: #73ed4838;
+    background-color: #ff74d1b3 !important;
     box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #2ee746;
+}
+button.accordion-button.collapsed {
+    background-color: rgb(255, 203, 238);
+}
+
+button.accordion-button {
+    font-weight: 500;
+    border:#df67bb 1px solid;
+}
+button#liveToastBtn {
+    background-color: rgb(255, 203, 238);
+    border: 2px solid;
+    color: #317219;
+}
+button#liveToastBtn:HOVER{
+    background-color: #ff74d1b3;
+    border: 2px solid;
+    color: #317219;
+}
+img.card-img-top {
+    width:auto;
+}
+
+button.btn.btn-success {
+    width: 50%;
+    background-color: #aadb7a;
+    border: 1px solid;
+    color:#39581a;
+}
+h3 {
+    margin-left: 5%;
+        padding: 1%;
+    background-color: #aadb7a;
+    border-radius: 15px;
+}
+.row.gx-5 {
+    margin-top: 3%;
+}
+footer{
+    margin-top:5%;
+    background-color: #aadb7a;
+    padding:3%;
+}
+footer h5{
+    text-align: left;
+    color: #1a2a09;
 }
